@@ -1,0 +1,6 @@
+@GameForum.Presentation_HostAddress = http://localhost:5243
+
+GET {{GameForum.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,64 @@
+# --- Build output ---
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# --- Visual Studio / Rider / VS Code ---
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.swp
+
+# --- Build artifacts ---
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+*.tlog
+*.tmp
+*.tmp_proj
+
+# --- NuGet ---
+*.nupkg
+*.snupkg
+.nuget/
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# --- TestResults ---
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+
+# --- Rider / ReSharper ---
+*.DotSettings.user
+_ReSharper*/
+
+# --- Configuration with secrets ---
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# --- Generated seed SQL ---
+scripts/seed/*.sql
+
+# --- OS junk ---
+[Tt]humbs.db
+[Dd]esktop.ini
+.DS_Store

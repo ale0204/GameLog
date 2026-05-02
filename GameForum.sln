@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForum.Domain", "GameForum.Domain\GameForum.Domain.csproj", "{52BB3B9F-66B0-4FCD-8889-9207F90D13ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForum.Application", "GameForum.Application\GameForum.Application.csproj", "{8AF78A2B-1ADD-48B0-9792-3CFD9F145528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForum.DataAccess", "GameForum.DataAccess\GameForum.DataAccess.csproj", "{3717179F-D970-43B0-9502-27D2D9DA141A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForum.Infrastructure", "GameForum.Infrastructure\GameForum.Infrastructure.csproj", "{28BA1DA4-8776-4D92-8AA9-5603A436E6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForum.Presentation", "GameForum.Presentation\GameForum.Presentation.csproj", "{884FDFDA-33A2-464B-B2E0-6481D6E2E828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForum.Tests.Unit", "GameForum.Tests.Unit\GameForum.Tests.Unit.csproj", "{96480644-E173-4203-A01E-D2BC395D7B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameForum.Tests.Integration", "GameForum.Tests.Integration\GameForum.Tests.Integration.csproj", "{7F159021-6F4B-447D-9D37-DAE351AAAA07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52BB3B9F-66B0-4FCD-8889-9207F90D13ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BB3B9F-66B0-4FCD-8889-9207F90D13ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BB3B9F-66B0-4FCD-8889-9207F90D13ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BB3B9F-66B0-4FCD-8889-9207F90D13ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF78A2B-1ADD-48B0-9792-3CFD9F145528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF78A2B-1ADD-48B0-9792-3CFD9F145528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF78A2B-1ADD-48B0-9792-3CFD9F145528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF78A2B-1ADD-48B0-9792-3CFD9F145528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3717179F-D970-43B0-9502-27D2D9DA141A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3717179F-D970-43B0-9502-27D2D9DA141A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3717179F-D970-43B0-9502-27D2D9DA141A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3717179F-D970-43B0-9502-27D2D9DA141A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BA1DA4-8776-4D92-8AA9-5603A436E6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BA1DA4-8776-4D92-8AA9-5603A436E6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BA1DA4-8776-4D92-8AA9-5603A436E6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BA1DA4-8776-4D92-8AA9-5603A436E6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884FDFDA-33A2-464B-B2E0-6481D6E2E828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884FDFDA-33A2-464B-B2E0-6481D6E2E828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884FDFDA-33A2-464B-B2E0-6481D6E2E828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884FDFDA-33A2-464B-B2E0-6481D6E2E828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96480644-E173-4203-A01E-D2BC395D7B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96480644-E173-4203-A01E-D2BC395D7B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96480644-E173-4203-A01E-D2BC395D7B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96480644-E173-4203-A01E-D2BC395D7B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F159021-6F4B-447D-9D37-DAE351AAAA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F159021-6F4B-447D-9D37-DAE351AAAA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F159021-6F4B-447D-9D37-DAE351AAAA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F159021-6F4B-447D-9D37-DAE351AAAA07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
