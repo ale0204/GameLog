@@ -58,6 +58,13 @@ secrets.json
 # --- Generated seed SQL ---
 scripts/seed/*.sql
 
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
 # --- OS junk ---
 [Tt]humbs.db
 [Dd]esktop.ini
